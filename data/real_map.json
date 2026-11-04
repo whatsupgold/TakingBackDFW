@@ -1,0 +1,8 @@
+{
+	"enabled": true,
+	"osm_file": "res://data/dfw.osm",
+	"center_lat": 32.748,
+	"center_lon": -97.09,
+	"scale": 1.0,
+	"rotation_deg": 0
+}

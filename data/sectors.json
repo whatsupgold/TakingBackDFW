@@ -1,0 +1,76 @@
+{
+ "sectors": [
+  {
+   "id": "fw-downtown",
+   "name": "Fort Worth — Downtown",
+   "order": 1,
+   "center_lat": 32.7555,
+   "center_lon": -97.3308,
+   "width_m": 3600,
+   "height_m": 1800
+  },
+  {
+   "id": "fw-stockyards",
+   "name": "Fort Worth — Stockyards",
+   "order": 2,
+   "center_lat": 32.789,
+   "center_lon": -97.3475,
+   "width_m": 3600,
+   "height_m": 1800
+  },
+  {
+   "id": "fw-cultural",
+   "name": "Fort Worth — Cultural District",
+   "order": 3,
+   "center_lat": 32.748,
+   "center_lon": -97.364,
+   "width_m": 3600,
+   "height_m": 1800
+  },
+  {
+   "id": "arl-entertainment",
+   "name": "Arlington — Entertainment District",
+   "order": 4,
+   "center_lat": 32.748,
+   "center_lon": -97.09,
+   "width_m": 3600,
+   "height_m": 1800
+  },
+  {
+   "id": "arl-downtown",
+   "name": "Arlington — Downtown & UTA",
+   "order": 5,
+   "center_lat": 32.733,
+   "center_lon": -97.113,
+   "width_m": 3600,
+   "height_m": 1800
+  },
+  {
+   "id": "irving-lascolinas",
+   "name": "Irving — Las Colinas",
+   "order": 6,
+   "center_lat": 32.865,
+   "center_lon": -96.94,
+   "width_m": 3600,
+   "height_m": 1800
+  },
+  {
+   "id": "dal-downtown",
+   "name": "Dallas — Downtown",
+   "order": 7,
+   "center_lat": 32.781,
+   "center_lon": -96.8,
+   "width_m": 3600,
+   "height_m": 1800
+  },
+  {
+   "id": "dal-fairpark",
+   "name": "Dallas — Fair Park",
+   "order": 8,
+   "center_lat": 32.779,
+   "center_lon": -96.759,
+   "width_m": 3600,
+   "height_m": 1800
+  }
+ ]
+}

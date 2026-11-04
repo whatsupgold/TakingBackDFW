@@ -1,0 +1,30 @@
+/*
+Taking back DFW, sector 8: Dallas — Fair Park
+3.6 x 1.8 km at real size, centred on 32.779, -96.759
+
+1. Open https://overpass-turbo.eu
+2. Paste everything in this file into the left-hand box (replace what's there)
+3. Click "Run" (it can take a minute; if it warns about a large amount of data, click "continue anyway")
+4. Click "Export", then "raw OSM data" (download)
+5. Rename the downloaded file to  dal-fairpark.osm  and put it in this folder (TakingBackDFW/data/sectors/)
+6. Restart the game: the sector shows as ready under New game
+*/
+[out:xml][timeout:180][bbox:32.77062,-96.77881,32.78738,-96.73919];
+(
+  way["building"];
+  relation["building"];
+  way["highway"];
+  way["railway"~"^(rail|light_rail)$"];
+  way["natural"~"^(water|wood)$"];
+  relation["natural"="water"];
+  way["waterway"];
+  relation["waterway"="riverbank"];
+  way["landuse"~"^(reservoir|basin|grass|recreation_ground|cemetery|meadow|forest|village_green|greenfield)$"];
+  way["leisure"~"^(park|pitch|golf_course|garden|playground|dog_park|nature_reserve|recreation_ground|stadium)$"];
+  relation["leisure"~"^(park|stadium)$"];
+  way["amenity"="parking"];
+  node["natural"="tree"];
+  node["place"];
+);
+(._;>;);
+out body;
